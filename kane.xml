@@ -6,7 +6,7 @@
 
   <!-- Device -->
   <project path="device/motorola/kane" name="android_device_motorola_kane" remote="kane-fork" />
-  <project path="device/motorola/exynos9610-common" name="android_device_motorola_exynos9610-common" remote="kane-los" />
+  <project path="device/motorola/exynos9610-common" name="android_device_motorola_exynos9610-common" remote="kane-fork" />
   <project path="kernel/motorola/exynos9610" name="android_kernel_motorola_exynos9610" remote="kane-los" />
 
   <!-- Vendor blobs -->
