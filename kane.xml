@@ -2,9 +2,10 @@
 <manifest>
   <remote name="kane-los" fetch="https://github.com/LineageOS" revision="lineage-24.0" />
   <remote name="kane-muppets" fetch="https://github.com/TheMuppets" revision="lineage-24.0" />
+  <remote name="kane-fork" fetch="https://github.com/luizpaulo2005" revision="lineage-24.0" />
 
   <!-- Device -->
-  <project path="device/motorola/kane" name="android_device_motorola_kane" remote="kane-los" />
+  <project path="device/motorola/kane" name="android_device_motorola_kane" remote="kane-fork" />
   <project path="device/motorola/exynos9610-common" name="android_device_motorola_exynos9610-common" remote="kane-los" />
   <project path="kernel/motorola/exynos9610" name="android_kernel_motorola_exynos9610" remote="kane-los" />
 
